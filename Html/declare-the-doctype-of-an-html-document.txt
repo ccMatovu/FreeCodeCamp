@@ -1,4 +1,0 @@
-<!DOCTYPE html>
-<html>
-    <h1> The heading here </h1>
-</html>
