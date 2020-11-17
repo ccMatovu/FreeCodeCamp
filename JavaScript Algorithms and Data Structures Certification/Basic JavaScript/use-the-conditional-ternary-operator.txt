@@ -1,0 +1,7 @@
+function checkEqual(a, b) {
+    var check;
+    (a==b)? check ="Equal" : check=  "Not Equal";
+    return check;
+}
+
+checkEqual(1, 2);
