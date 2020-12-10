@@ -1,0 +1,1 @@
+let yourArray=[3,"array",true,3.3,null]; // Change this line
