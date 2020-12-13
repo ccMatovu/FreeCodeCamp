@@ -1,0 +1,12 @@
+function getIndexToIns(arr, num) {
+  var count=0;
+  for(let no in arr){
+    if(arr[no] < num){
+      count++;
+    }
+    console.log(no)
+  }
+  return count;
+}
+
+getIndexToIns([40, 60], 50);
