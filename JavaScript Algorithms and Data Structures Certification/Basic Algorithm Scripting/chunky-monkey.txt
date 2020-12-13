@@ -1,0 +1,18 @@
+function chunkArrayInGroups(arr, size) {
+  var result =[];
+  for(var i=0;i<arr.length;i++){
+    var tot=[];
+    for(var z=0;z<size && i<arr.length;z++){
+      tot[z]=arr[i];
+      i++;
+    }
+    i--;
+    console.log(tot)
+    result.push(tot);
+    console.log(result)
+  }
+  return result;
+}
+
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4)
+
