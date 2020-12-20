@@ -1,0 +1,19 @@
+function fearNotLetter(str) {
+ /**  var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+  var index = alphabet.indexOf(str.charAt(0));
+  for(var i=index;i<str.length;i++);{
+    console.log(alphabet[i],index);
+    // if(alphabet[i] != str.charAt(i)){
+    //   return alphabet[i];
+    // }
+  }
+  //console.log(alphabet,index) */
+
+  for (let i = 1; i < str.length; ++i) {
+    if (str.charCodeAt(i) - str.charCodeAt(i - 1) > 1) {
+      return String.fromCharCode(str.charCodeAt(i - 1) + 1);
+    }
+  }
+}
+
+fearNotLetter("abce");
