@@ -1,0 +1,10 @@
+ img{
+    display: flex;
+    margin: auto;
+    }
+#image {
+    max-width: 250px; 
+    width: 100%;
+    display: block;
+    margin: auto; 
+}
