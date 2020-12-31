@@ -1,3 +1,5 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 <html lang = "en"> 
 
@@ -7,7 +9,7 @@
   </head>
   
   <body>
-    <main>
+    <main id = "main">
     <div>
       <h1 id="title">freeCodeCamp Survey Form</h1>
       <p id ="description">Thank youtaking the time to help us improve the platform</p>
@@ -15,22 +17,38 @@
     
     <form id="survey-form">
      
-      <div id="info">
         <div>
-          <label for="name" id="name-label">Name:</label>
-          <input autofocus type="text" id="name" value="Enter your name">
+          <label for="name" id="name-label">Name:</label><br>
+          <input autofocus type="text" id="name" placeholder="Enter your name">
         </div>
         
         <div>
-          <label for="email" id="email-label">Email: </label>
+          <label for="email" id="email-label">Email: </label><br>
           <input autofocus type="email" name="email" id="email" required class="input-field" placeholder="Enter your email" value="">
         </div>
-
         
-               
-         
+        <div>
+          <label for="number" id="number-label">Age:</label><br>
+          <input type="number" id="number" required min="0" max="150" placeholder="25">
+        </div>  
+        
+        <div>
+          <label for="dropdown" id="dropdown">Which option best describes your current role?</label><br>
+          <select name="dropdown" id="dropdown" >
+            <option value="Student">Student</option>
+            <option>Full time job</option>
+            <option>Full time learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>    
+          </select>
+          
+        </div>
+         <div>
+        
       </div>
       
+      
+          
     </form>
     </main>
   </body>
