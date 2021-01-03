@@ -1,0 +1,17 @@
+#navbar {
+    background-color: #dfde;
+    position: fixed;
+    min-width: 250px;
+    width: 300px;
+    min-width: 200px;
+    border-right: 2px solid rgba(116, 117, 121, 0.55);
+    height: 100%;
+    top: 0px;
+    line-height: 2.0;
+    left: 0px;
+}
+#navbar ul {
+    list-style: none;
+    width: 150%;
+    padding: 20px;
+}
